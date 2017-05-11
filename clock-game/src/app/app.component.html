@@ -1,3 +1,18 @@
-<h1>
-  {{title}}
-</h1>
+<body>
+<h1 class=""> Time Lord Game </h1>
+
+<div class="container"> What Time is this: {{guess | date:'shortTime'}} </div>
+<div> <input type="text" text="Enter Answer"></div>
+<input type="button" text="submit">
+
+<div>
+  <h2> Heres A hint:</h2>
+  <h3> Current Time Is: {{ today | date:'shortTime' }}  </h3>
+</div>
+
+
+
+
+
+</body>
+
